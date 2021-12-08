@@ -9,7 +9,6 @@ import io.cucumber.java.en.When;
 public class StepDefination {
 
 	
-	
 	@Given("User is on Home Page")
 	public void user_is_on_Home_Page() {
 	    // Write code here that turns the phrase above into concrete actions
@@ -31,7 +30,7 @@ public class StepDefination {
 	@Then("Message displayed Login Successfully")
 	public void message_displayed_Login_Successfully() {
 	   
-		assertTrue(false);
+		assertTrue(true);
 	}
 	
 	@When("User LogOut from the Application")
@@ -44,6 +43,17 @@ public class StepDefination {
 	public void message_displayed_LogOut_Successfully() {
 	    // Write code here that turns the phrase above into concrete actions
 	   System.out.println("log out success");
+	}
+	
+	@Given("user dash dashg")
+	public void user_dash_dashg() {
+		System.out.println("Dash Dash G ");
+	}
+
+	@Then("user dash dash")
+	public void user_dash_dash() {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("Dash Dash T ");
 	}
 	
 

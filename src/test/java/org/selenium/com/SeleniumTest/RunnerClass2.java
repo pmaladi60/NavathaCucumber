@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(monochrome = true,features="resources/Login.feature", glue="org.selenium.com.SeleniumTest")
-public class RunnerClass{
+@CucumberOptions(strict = true,monochrome = true,features="resources/TestFile2.feature", glue="org.selenium.com.SeleniumTest")
+public class RunnerClass2{
 	
 }
